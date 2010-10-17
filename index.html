@@ -4,6 +4,7 @@
         <script type="text/javascript" src="js/jquery-1.4.2.js"></script>
         <script type="text/javascript" src="js/jquery.autorun.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/autorun-example.js"></script>
         
 
         <style type="text/css">
@@ -13,8 +14,27 @@
     </head>
     
     <body>
-    
-        <button id="button-clickme">Click</button>
+        <form id="loginform">
+            <fieldset>
+                <legend>login here</legend>
+                <p>
+                    <label for="username">username</label>
+                    <input id="username"/>
+                </p>
+                <p>
+                    <label for="password">username</label>
+                    <input id="password" type="password"/>
+                </p>
+                <p>
+                    <input type="submit"/>
+                </p>
+            </fieldset>
+        </form>    
+
+        <div id="loggedin" style="display:none;">
+            <p>You are now logged in.</p>
+            <p>Wait for it...</p>
+        </div>
     
     
     

@@ -45,7 +45,7 @@
         console.log('queue', _queue.length);
         if (_queue.length) {
             run(_queue[0]);
-            setTimeout(processQueue, 100);
+            setTimeout(processQueue, 20);
         }
     }
 

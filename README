@@ -1,0 +1,21 @@
+aurorun - A jQuery plugin for automating interaction
+
+DESCRIPTION
+
+Autorun is a jQuery plugin developers can use to automate basic interaction with a jQuery-based site. The idea is to automate the mundane actions that need to be done every time you refresh the site you're working on. By automating this you free up valuable development time and keep your sanity.
+
+INSTALLATION
+
+Simply place the jquery.autorun.js somewhere in your project and include it in the HTML page you would like to automate. Don't forget to take it out again before deployment!
+
+Please note that autorun only works on single pages, yet...
+
+SIMPLE AUTOMATION EXAMPLE
+
+Let's say we want to automate logging into a page, then clicking a button called "hitme":
+
+$.autorun
+    .type('#username', 'menno')
+    .type('#password', 'hunter2')
+    .submit('#loginform')
+    .click('#hitme');
