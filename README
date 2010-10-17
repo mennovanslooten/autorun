@@ -19,3 +19,7 @@ $.autorun
     .type('#password', 'hunter2')
     .submit('#loginform')
     .click('#hitme');
+
+TODO
+
+The one thing I'd still like to add to this tool is the ability to automate actions that move you from one page to the next like clicking links and submitting forms.
